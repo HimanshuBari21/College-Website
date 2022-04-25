@@ -1,149 +1,339 @@
-Project Name
-```
 # COLLEGE WEBSITE
 
-Presented by Himanshu Yuvraj Bari (196580316002)
-Patel Jash Santoshkumar (196580316028)
+## A PROJECT REPORT
 
-Guide Name Shri Rajesh Kumar Pendem
+## Submitted by
 
-Department Information Technology
+## BARI HIMANSHU YOVRAJ (196580316002)
 
-College Government Polytechnic Daman
+## PATEL JASH SANTOSH KUMAR (196580316002)
 
-Year 2022
+## In fulfillment for the award of the degree
 
+## of
 
-#### CONTENTS
+## DIPLOMA ENGINEERING
 
-**SR NO. TITLE SLIDE NO.**
+# in
 
-01 GANTT CHART 4
+## Information Technology
 
-02 PROBLEM STATEMENT 5
+## Government Polytechnic Daman
 
-03 EXISTING SYSTEM 6
+## Gujarat Technological University, Ahmedabad
 
-04 PROPOSED SYSTEM 7
-
-05 SOFTWARE DEVELOPMENT LIFECYCLE 8
-
-07 FEASIBILITY STUDY 9
+## MARCH, 2022
 
 
-#### CONTENTS
+### GOVERNMENT POLYTECHNIC DAMAN
 
-**SR NO. TITLE SLIDE NO.**
+### INFORMATION TECHNOLOGY
 
-07 SRS 12
+### 2022
 
-08 Design - ER, DFD 18
+## DECLARATION
 
-09 Result 23
+WeherebydeclarethattheDiplomaProjectReportfortheprojectentitled **“COLLEGETITLE”** submitted
 
-10 Limitation of System 32
+inpartialfulfillmentforthedegreeofDiplomaofEngineeringin **INFORMATIONTECHNOLOGY** to
 
-11 Future Scope 33
+GujaratTechnological University, Ahmedabad, isa Bonafederecordoftheproject workcarriedout at
 
-12 References 35
+**GOVERNMENT POLYTECHNIC DAMAN** under the supervision of **SHRI. RAJESH KUMAR**
 
+**PENDEM.** Thematerialcontainedinthisreporthasnotbeendirectlycopiedfromanystudents’reportsor
 
-##### 1. GANTT CHART
-
-
-##### 2. PROBLEM STATEMENT
+taken from any other source, without providing a reference.
 
 ```
-● No Platform for College to Showcase the Facility and
-Infrastructure Details.
-● No Online Platform for College contact and Regular Updates
-regarding Tenders, Circulars, Events etc.
-● No Online Platform to Present Images and Video Gallery of Events
-and Programs.
-● No Platform for Students to get Details about them and Verification of
-it and Academic Details also.
-● Teachers cannot Post Circulars and Updates at One Platform
+Name of The Students Sign of Students
+```
+**1. Bari Himanshu Yovraj
+2. Patel Jash Santoshkumar**
+
+
+### GOVERNMENT POLYTECHNIC DAMAN
+
+### INFORMATION TECHNOLOGY
+
+### 2022
+
+## CERTIFICATE
+
+This is to certify that the dissertation entitled “COLLEGE WEBSITE”hasbeencarried out byBARI
+
+HIMANSHUYOVRAJ andPATELJASHSANTOSHKUMARundermyguidanceinfulfillmentofthe
+
+degreeofDiplomaofEngineeringinInformationTechnologyintheDepartmentofInformationTechnology
+
+at Government Polytechnic Daman, Varkund during the academic year 2021-2022.
+
+```
+Signature of the Principal
+```
+```
+Dr. Suhas V Patil
+```
+```
+College Seal
+```
+```
+Signature of the Guide Head of The Department
+```
+```
+Shri. Rajesh Kumar Pendem Dr. Rakesh Kumar Bhujade
 ```
 
-##### 3. EXISTING SYSTEM
+## Acknowledgment
 
 ```
-● Students have to visit College for Getting Admission.
-● College has to Facility to show Circulars and Notice at Online
-Platform.
+FirstofAllWewouldliketothankmyProjectGuide- ShriRajeshKumarPendem forGuidingus
+```
+at every step of Our Project and Providing us Correct format for the Presentation.
+
+BesidesourOfficialGuide,thereismuchOtherguidance,Wegotfrom **Shri.ShubhamKumarGupta** -
+For Helping us in Writing SQL Queries and other approaches and Logic.
+
+Wewouldalsoliketothank **Dr.RakeshKumarBhujade** forbeingourPPTCorrectorand HODheis
+Perfect in All formats.
+
+Lastbut not theleast, We would Liketo thank **Shri.SapprativaBhattacharjee** fortheirContinuous
+Guidance and **Shri. Sanjay Mate** for pushing us to dothe best we can.
+
+
+## Abstract
+
+The main aim of this Project is to provide a Web Platform to the College. Where the College will be able to
+provide the following facilities to the Students, Staff Members, and Visitors:
+● College Details
+● Infrastructure Details
+● Admission Process ease
+● Personalized Profile for them
+● Online Certificate Verification
+● Regular Update for Circular Notices, etc
+
+All facilities will be provided with respect to the Cost, Time and Resources keeping in Mind
+
+
+## Table of Contents
+
+```
+Title Page i
+```
+```
+Declaration of the Student ii
+Certificate of the Guide iii
+Abstract iv
+Acknowledgement v
+```
+```
+List of Figures vi
+```
+#### 1. INTRODUCTION 7
+
+```
+1.1Problem Definition
+1.2Objective
+1.3Project Overview/Specifications
+1.4Hardware Specification
+1.5Software Specification
+```
+#### 7
+
+#### 8
+
+#### 9
+
+#### 10
+
+#### 10
+
+#### 2. LITERATURE SURVEY 11
+
+```
+2.1 Existing System
+2.2 Proposed System
+2.3 Feasibility Study* (page-4)
+```
+#### 11
+
+#### 11
+
+#### 12
+
+#### 3. SYSTEM ANALYSIS & DESIGN 13
+
+```
+3.1 Requirement Specification
+3.2 Flowcharts / DFDs / ERDs / Use case diagram
+3.3 Design and Test Steps
+```
+#### 13
+
+#### 14
+
+#### 15
+
+#### 4. CONCLUSIONS / RECOMMENDATIONS 20
+
+#### 5. REFERENCES 25
+
+
+## 1. Introduction
+
+### 1.1 Problem Definition
+
+```
+● No Platform for College to Showcase the Facility and Infrastructure Details.
+● NoOnlinePlatformforCollegecontactandRegularUpdatesregardingTenders,Circulars,
+Events, etc.
+● No Online Platform to Present Images and Video Gallery of Events and Programs.
+● NoPlatform forStudents to getDetails aboutthemandVerificationof itandAcademic
+Details also.
+● Teachers cannot Post Circulars and Updates at One Platform.
+● Students have to Visit College Every Necessary.
+```
+
+### 1.2 Objective
+
+```
+ThemainobjectiveofourProjectistocreateEasyaccessforthePeople,individuals,companies,
+andcollegestotheServicesandApplicationsoftheCollege.ThisProjectwillbeabletoprovidea
+betterwayofhowtheSystemusedtoworkusually.ThiswillsaveEnvironment, Energy,and
+Money and provide Advance Help to Users and Visitors.
+```
+```
+Projectobjectivesarewhatweplanto achievebytheendof ourproject.Thismightinclude
+deliverablesandassets,ormoreintangibleobjectiveslikeincreasingproductivityormotivation.
+Yourprojectobjectivesshouldbeattainable,time-bound,andspecificgoalsyoucanmeasureat
+the end of your project.
+```
+
+### 1.3 Project Overview
+
+```
+ThisReportcontainsalltheAspectsofCollegeWebsitewhichisourProject.Wehavecomeacross
+all the phases like DFD Diagram, Use Case Diagram, Hardware Specification, Software
+specification, Proposed system, Design and Testing Process as well as Conclusion and
+recommendations.OurProject“CollegeWebsite”hasbeenCompletedundertheManagementof
+Time,CostandResourceskeepinginMind.ThiswebsiteisabletoworkuptodateCircularand
+Notice, Providing Login to Normal User such as Faculty and Student as well as Super User Admin.
+```
+```
+StudentscanEasilyverifytheircertificateandmarksheetandTeacherscanupdatetheNoticeBoard
+from their Respective Profile Pages.
+```
+
+### 1.4 Software Specification
+
+```
+Sr. No. Type System
+```
+1. Operating System Windows (7, 10)
+2. Language HTML5, CSS3, JavaScript 6, PHP
+3. Database MySQL, Xampp(For Local Host Management)
+4. IDE Microsoft VS code, Notepad++
+5. Browser Chrome, Mozilla Firefox, MS Edge, Safari
+
+### 1.5 Hardware Specification
+
+```
+Sr. No. Description
+```
+1. A system with a Minimum 250GB Storage
+2. A system with a minimum of 4 GB RAM
+3. Windows with Minimum 32-bit processor
+4. SmartPhone, Desktop, and other Display Sizes Devices
+
+
+## 2. Literature Survey
+
+### 2.1 Existing System
+
+```
+● Students have to visit College for Admission.
+● College has no Facility to show Circulars and Notice at Online Platform.
 ● Visitors have to visit College Premises.
-● Waste of Energy, Time and Money.
+● Waste of Energy, Time, and Money.
 ● Cannot Get Information by Computer or Smartphone.
-● Students have to visit College for Getting Details about College and
-Faculties.
+● Students have to visit College to get details about the College and its Faculties.
 ```
-
-##### 4. PROPOSED SYSTEM
+### 2.2 Proposed System
 
 ```
 ● Our Project “College Website” provides a website for our College.
-● He/She can also get Information regarding College like Faculty, Staff,
-Infrastructure, Courses college Offers.
+● He/ShecanalsogetInformationregardingCollegelikeFaculty,Staff,Infrastructure,
+and Courses the college Offers.
 ● There will be a centralized platform for all needs of communication.
-● Less Paperwork required so beneficial for environment.
-● No waste of time, manpower and energy.
-● So that Anyone can visit to the website of College and gets details
-about it.
-● All facilities will be at students fingertips.
+● Less Paperwork required is beneficial for the environment.
+● No waste of time, manpower, and energy.
+● So that our Anyone can visit the website of College and get details about it.
+● All facilities will be at students' fingertips.
 ```
 
-##### 5. SOFTWARE DEVELOPMENT LIFECYCLE MODEL
+### 2.3 Feasibility Study
 
-
-##### 6. FEASIBILITY STUDY
-
-6.1 TECHNICAL FEASIBILITY
+### 2.3.1 Technical Feasibility
 
 ```
-● Project needs memory requirement 256GB ROM and 32 bit
-Processor.This is very feasible in this perspective.
-● This project can be loaded on any operating system with supports
-modern browser such as chrome, mozilla, edge, safari.
-● The Hardware and software used a normally available and satisfies a
-individual's general budgets.
+● Projectneedsamemoryrequirementof 120 GBROManda32-bitProcessor.
+This is very feasible from this perspective.
+● This project canbe loadedon anyoperating systemwhich supportsmodern
+browsers such as chrome, Mozilla, edge, and safari.
+● The Hardware and software used are normally available and satisfy an
+individual's general budget.
 ```
-
-6.2 ECONOMIC FEASIBILITY
-
 ```
-● As we know that the system development costs are usually one time costs
-that will not recur after the project has been completed the calculating the
-development costs.
+2.3.2 Economical Feasibility
 ```
-##### 6. FEASIBILITY STUDY
-
+```
+● Asweknowthatthesystemdevelopmentcostsareusuallyone-timecoststhat
+willnot recurafter the project hasbeencompletedcalculatingdevelopment
+costs.
+```
 ```
 No. Name Cost
-1 VS Code, Notepad++, Xampp, Chrome Dev
-Tools
+```
+```
+1 VS Code, Notepad++, Xampp, Chrome
+Dev Tools
 ```
 ```
 Free
 ```
 ```
-2 Computer with 4GB RAM - 250GB Storage
-and Intel i3 Processor
+2 Computer with 4GB RAM - 250GB
+Storage and AMD Quad-Core
+Processor
 ```
 ```
-INR 42,000 approx.
+INR 32,000 approx.
 ```
 ```
 3 Wifi Internet Connection INR 399 / month approx
 ```
-4 Hosting and Domain Name Purchase INR 3000 approx (T&C apply) (^10)
+```
+4 Hosting and Domain Name Purchase INR 2000 approx (T&C apply)
+```
 
+## 3. System Analysis & Design
 
-##### 7. SOFTWARE REQUIREMENT SPECIFICATION
+### 3.1 Requirement Specification
 
-7.1 FUNCTIONAL REQUIREMENT
+```
+● Asoftware requirementsspecification(SRS) isa documentthatdescribeswhat the
+software will do and how it will be expected to perform.
+● Italsodescribesthefunctionalitytheproductneedstofulfillallstakeholders(business,
+users) needs.
+● An SRS gives you a complete picture of your entire project.
+● It provides a single source of truth that every team involved in development will follow.
+● It is your plan of action and keeps all your teams
+```
+### 3.1.1 Functional Requirement:
 
-The website will be able Provide information about College to Visitors
-
+```
+The website will be able to Provide information about the College to Visitors
+```
 ```
 ● Faculty Details
 ● Infrastructure Details
@@ -153,187 +343,152 @@ The website will be able Provide information about College to Visitors
 ● Department Details
 ● Notice Board
 ```
-
-##### 7. SOFTWARE REQUIREMENT SPECIFICATION
-
-7.2 USE CASE DIAGRAM
-
-
-##### 7. SOFTWARE REQUIREMENT SPECIFICATION
-
-7.3 NON FUNCTIONAL REQUIREMENT
+### 3.1.2 Non-Functional Requirement:
 
 ```
-● Security - The Password are Encrypted with MD5 Algorithm.
-● Privacy - The methods used to collect and Store Data from Students
-are Safe and Secure
-● Performance - Simple, Fast and Clean UI/UX of our website
-ensures Good Performance.
-● Maintainability - Website can be maintained by Any Web Developer
-who has plenty knowledge of HTML, CSS, PHP, MySQL and
-JavaScript
+● Security - The Passwords are Encrypted with the MD5 Algorithm.
+● Privacy- The methods used tocollectand Store Datafrom Students areSafeand
+Secure.
+● Performance - Simple, Fast, and Clean UI/UX of our website ensures Good
+Performance.
+● Maintainability-AwebsitecanbemaintainedbyAnyWebDeveloperwhohasplenty
+of knowledge of HTML, CSS, PHP, MySQL, and JavaScript.
 ```
 
-##### 7. SOFTWARE REQUIREMENT SPECIFICATION
-
-7.4 GOALS OF IMPLEMENTATION
+### 3.2.1 Flow Chart
 
 ```
-● Students will be able to verify their Certificate Online
-● No Worries if document lost or theft ,they can be get again Online by
-some easy Processes.
-● College will have a Good Online Presence.
-● This will Increase No. of Admission and will be Profitable for College
-to get Best out of Best Student.
+Fig 1 - Flow Chart
 ```
 
-##### 7. SOFTWARE REQUIREMENT SPECIFICATION
-
-7.5 HARDWARE SPECIFICATION
+### 3.2.2 ER Diagram
 
 ```
-Sr. No. Description
-```
-1. System with Minimum 250GB Storage
-2. System with Minimum 4 GB RAM
-3. Ryzen AMD A3 Processor^
-4. SmartPhone, Desktop and other Display Sizes Devices
-
-
-##### 7. SOFTWARE REQUIREMENT SPECIFICATION
-
-7.5 SOFTWARE SPECIFICATION
-
-(^) **Sr. No. Type System**
-
-1. Operating System Windows (7, 10)
-2. Language HTML5, CSS3, JavaScript 6, PHP
-3. Database MySQL, Xampp(For Local Host Management)
-4. IDE Microsoft VS code, Notepad++
-5. Browser Chrome, Mozilla firefox, MS Edge, Safari
-
-
-##### 8. DESIGN
-
-8.1 ER DIAGRAM
-
-
-##### 8. DESIGN
-
-8.1 DATA FLOW DIAGRAM - BASIC LEVEL
-
-
-##### 8. DESIGN
-
-8.1 DATA FLOW DIAGRAM - ADMIN
-
-
-##### 8. DESIGN
-
-```
-8.1 DATA FLOW DIAGRAM - FACULTY
+Fig 2 - ER Diagram
 ```
 
-##### 8. DESIGN
+### 3.2.3 Use Case Diagram
 
 ```
-8.1 DATA FLOW DIAGRAM - STUDENT
+Fig 3 - Use Case Diagram
 ```
-
-##### 9. RESULTS
-
-### The Result will be a Clean , Functional ,
-
-### Dynamic Website.
-
-### This are some Screenshots
-
-
-###### HOMEPAGE^23
-
+### 3.2.3 Data Flow Diagram - Basic Level
 
 ```
-24
-```
-###### DEPARTMENT
-
-###### DEPARTMENT
-
-
-###### FACULTY DETAILS^25
-
-
-###### FACULTY DETAILS^26
-
-
-###### ADMISSION FORM^27
-
-
-###### STUDENT LOGIN^28
-
-
-###### STUDENT PROFILE^29
-
-
-###### FACULTY LOGIN^30
-
-
-###### FACULTY PROFILE^31
-
-
-##### 10. LIMITATION
-
-```
-● Our Website currently doesn’t provide direct communication between
-Entities like Faculty and Students.
-● The chat bot on website is static and doesn’t support AI or Machine
-Learning Answers.
-● Students still have to Pay their Fees and Other Monetary
-Transactions with Offline mode
+Fig 4 - DFD (Basic Level)
 ```
 
-##### 11. FUTURE SCOPE
-
-11.1 Providing Communication
+### 3.2.4 Data Flow Diagram - ADMIN
 
 ```
-● Capabilities between Teachers and Students on the website to
-communicate with each other.
-● Providing Facilities to teachers so they can receive and send
-Notification.
-● Students will be able to pay their Fees and Other Monetary
-Transactions with Online mode.
+Fig 5 - DFD(Admin)
 ```
-
-##### 11. FUTURE SCOPE
-
-11.2 Enhancing AI Chatbot.
+### 3.2.5 Data Flow Diagram - Faculty
 
 ```
-● Making the chatbot more user friendly and Intelligent so that it can
-Answer most of the Manual Questions.
-● Adding more Details and Enhancing UI & UX of the main pages of
-website like Faculty Details, Infrastructure Details, Login Page and
-Profile and much more.
+Fig 6 - DFD(Faculty)
 ```
 
-##### 12. REFERENCES
+### 3.2.6 Data Flow Diagram - STUDENT
+
+```
+Fig 6 - DFD(Student)
+```
+
+### 3.3 Design and Testing Process
+
+To Ensure Error freeand UserFriendly Website theWebsite must betestedand Audited
+Properly.
+
+After the coding and programming phase, the Testing phase starts.
+
+After Testing there was debugging and code cleaning is Done.
+
+All Programs must be tested to ensure proper functioning of Programs.
+
+**Program Testing Involves fixing of two type error**
+
+### 1. Compile Time Testing: Programs: Programs arecompiled using CASE tools or a
+
+```
+languagecompiler.This processdetects syntaxerrors, whicharelanguagegrammar
+errors. Programmer corrects the errors until the program executes properly.
+```
+### 2. DepthCheckingError:ThisCheckingisDoneonCoreandDeepcheckingofEverytestCase
+
+```
+Possible.
+```
+### 3. UnitTesting: EveryFunctionalityandpartsoftheWebsitearetestedindividuallyand
+
+```
+an individual report page has been made.
+```
+
+## 4. Conclusion and Recommendation
+
+```
+TheFinalConclusionafterStudyingalltheAspectslikeRequirementSpecification,Feasibility
+Study,Hardware andSoftwareRequirement,FutureScope,ERdiagram,DFDDiagramand
+TestingSystem wecanconcludethat wehavemadeanSuccessfulCollegeWebsiteforthe
+Organization with all the Due respect to Time, Cost and money.
+```
+```
+We would like to Recommend regular Testing and maintenanceand Code fix with all
+possibilities to provide regular updates.
+```
+
+## Screen Shots
+
+```
+Fig 7 - Home Page
+```
+Fig 8 - Department Details
+
+
+## Screen Shots
+
+```
+Fig 9 - Faculty Details
+```
+```
+Fig 10 - Admission Form
+```
+
+```
+Fig 11 - Faculty Login
+```
+Fig 12 - Faculty Profile
+
+
+```
+Fig 13 - Student Login
+```
+Fig 14 - Student Profile
+
+
+## 5. References
+
+## Related URLs
 
 ```
 ● https://www.w3schools.com/css/default.asp
 ● https://www.w3schools.com/html/default.asp
 ● https://www.w3schools.com/js/default.asp
 ● https://www.w3schools.com/php/default.asp
+● https://www.w3schools.com/mysql/default.asp
 ● https://www.code.visualstudio.com/?wt.mc_id=DX_841432
-● https://www.visualstudio.com/extensions
+● https://www.visualstudio.com
 ● https://www.w3schools.com/mysql/default.asp
 ● https://developer.mozilla.org/en-US/docs/Web/JavaScript
 ● https://developer.mozilla.org/en-US/docs/Web/HTML
-● https://gpdaman.in/it/faculty-details
+● https://www.intelliticks.com/why-businesses-need-conversational-marketin
+● https://www.javatpoint.com/html-tutorial
+● https://www.javatpoint.com/php-tutorial
+● https://getbootstrap.com/docs/5.0/components/alerts/
+● https://getbootstrap.com/docs/5.0/components/carousel/
+● https://getbootstrap.com/docs/5.0/getting-started/introduction/
+● https://getbootstrap.com/docs/5.0/forms/form-control/
+● https://www.youtube.com/codewithharry
 ```
-
-# Thank You!
-
-#### Any Question?
-
 
