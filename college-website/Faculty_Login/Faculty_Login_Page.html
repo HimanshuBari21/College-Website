@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FACULTY LOGIN</title>
+    <link rel="stylesheet" href="gotohome_button.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            font-family: "Red Hat Display", sans-serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(0deg, white, dodgerblue);
+            background-repeat: no-repeat;
+            /* background-position: center; */
+            background-size: 100%;
+        }
+
+        .card {
+            height: 500px;
+            max-width: 680px;
+            margin: 80px auto;
+            border-radius: 50px;
+            box-shadow: -2px 2px 50px -30px black;
+            background-color: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(4px);
+        }
+
+        .card:hover {
+            background-color: rgba(255, 255, 255, 0.86);
+        }
+
+        fieldset {
+            position: relative;
+            top: 50px;
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        legend {
+            background-color: dodgerblue;
+            color: white;
+            width: 86%;
+            box-shadow: 0px 0px 2px gray;
+            border-radius: 20px;
+            font-size: 40px;
+            position: relative;
+            bottom: 12px;
+        }
+
+        .input-column {
+            width: 100%;
+            margin: 20px auto;
+        }
+
+        input {
+            height: 38px;
+            width: 60%;
+            border: none;
+            border-bottom: 2px gray solid;
+            font-size: 24px;
+            padding-left: 10px;
+            background-color: transparent;
+        }
+
+        input:focus {
+            outline: none;
+        }
+
+        .material-icons {
+            position: relative;
+            top: 12px;
+            font-size: 40px;
+        }
+
+        #login-button {
+            height: 42px;
+            border: none;
+            border-radius: 19px;
+            font-size: 28px;
+            background-color: dodgerblue;
+            width: 100%;
+            margin: 36px auto 40px auto;
+        }
+
+        #login-button:hover {
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+    <main class="card">
+        <form action="connection.php" method="post">
+            <fieldset>
+                <legend>FACULTY LOGIN</legend>
+                <div class="input-column">
+                    <label><span class="material-icons">account_circle</span><input type="number" name="Username" id="Username" placeholder="Username" required></label>
+                </div>
+                <div class="input-column">
+                    <label><span class="material-icons">lock</span><input type="password" name="Password" id="Password" placeholder="Password" required></label>
+                </div>
+                <button id="login-button" type="submit">LOGIN<span class="material-icons" style="top: 4px; font-size: 30px;">login</span></button>
+                <a target="blank" href="">Forget Password? Click here</a>
+            </fieldset>
+        </form>
+    </main>
+    <script></script>
+</body>
+
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FACULTY DETAILS</title>
+    <link rel="stylesheet" href="gotohome_button.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Red Hat Display', sans-serif;
+            box-sizing: border-box;
+            /* border: 1px dashed red; */
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: rgba(128, 128, 128, 0.1);
+            padding: 100px 20px;
+        }
+
+        header {
+            background-color: dodgerblue;
+            color: white;
+            position: fixed;
+            z-index: 99;
+            left: 0px;
+            top: 0px;
+            right: 0px;
+            height: 80px;
+            text-align: center;
+            font-size: 50px;
+            box-shadow: 0px 1px 10px -5px gray;
+        }
+
+        #title {
+            text-align: justify;
+            margin: auto;
+            width: fit-content;
+        }
+
+        h1 {
+            margin: auto;
+            text-align: center;
+            border-left: 8px solid red;
+            width: fit-content;
+            padding: 2px 100px;
+        }
+
+        #main {
+            background-color: white;
+            border-radius: 40px;
+            margin: auto;
+            max-width: 1100px;
+            min-width: 300px;
+            box-shadow: 0px 0px 20px -8px gray;
+            padding: 20px 0px;
+        }
+
+        .dept {
+            margin: auto;
+            max-width: 900px;
+            border-radius: 10px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            column-gap: 40px;
+            row-gap: 60px;
+            padding: 20px 0px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            width: 100%;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+
+        .title {
+            color: grey;
+            font-size: 18px;
+        }
+
+        .faculty-contact {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 22px;
+            color: black;
+        }
+
+        .faculty-contact:hover,
+        a:hover {
+            opacity: 0.7;
+        }
+
+        .faculty-image{
+            margin: auto;
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 700px) {
+            #title {
+                font-size: 45px;
+            }
+
+            .dept {
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(6, 1fr);
+            }
+
+            h1 {
+                width: fit-content;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="title">FACULTY DETAILS</div>
+    </header>
+    <div id="main">
+        <h1>Information Technology</h1>
+        <div class="dept" id="it">
+            <div class="card">
+                <img class="faculty-image" src="https://gpdaman.in/wp-content/uploads/2020/08/HOD-IT-Dr-Rakesh-Bhujade.png" alt="John" width="160px">
+                <h3>Dr. Rakesh Kumar Bhujade</h3>
+                <p class="title">Head of Department - IT</p>
+                <p>Govt Polytechnic Daman</p>
+                <p><button class="faculty-contact" >Contact</button></p>
+            </div>
+            <div class="card">
+                <img class="faculty-image" src="https://media-exp1.licdn.com/dms/image/C5103AQGAINhFRHWULg/profile-displayphoto-shrink_200_200/0/1578749691514?e=1654732800&v=beta&t=J8crAeZZLwhrZsMYwcbIYe9u7g4WfLCx4ThgG5_4RUY" alt="John" width="205px">
+                <h3>Shri. Sapprativa Bhattacharjee</h3>
+                <p class="title">Professor - IT</p>
+                <p>Govt Polytechnic Daman</p>
+                <p><button class="faculty-contact" >Contact</button></p>
+            </div>
+            <div class="card">
+                <img class="faculty-image" src="https://gpdaman.in/wp-content/uploads/2021/04/IT_Subham_Kumar_Gupta.jpeg" alt="John" width="150px">
+                <h3>Shri. Shubham Kumar gupta</h3>
+                <p class="title">Professor - IT</p>
+                <p>Govt Polytechnic Daman</p>
+                <p><button class="faculty-contact" >Contact</button></p>
+            </div>
+            <div class="card">
+                <img class="faculty-image" src="https://gpdaman.in/wp-content/uploads/2019/05/IT_Sanjay-Rajendra-Mate-244x300.png" alt="John" width="160px">
+                <h3>Shri. Sanjay Rajendra Mate</h3>
+                <p class="title">Head of Department - IT</p>
+                <p>Govt Polytechnic Daman</p>
+                <p><button class="faculty-contact" >Contact</button></p>
+            </div>
+            <div class="card">
+                <img class="faculty-image" src="https://gpdaman.in/wp-content/uploads/2019/05/IT-RAJESH-KUMAR-PENDEM.png" alt="John" width="160px">
+                <h3>Shri Rajesh Kumar Pendem</h3>
+                <p class="title">Lecturer - IT</p>
+                <p>Govt Polytechnic Daman</p>
+                <p><button class="faculty-contact" >Contact</button></p>
+            </div>
+            <div class="card">
+                <img class="faculty-image" src="https://gpdaman.in/wp-content/uploads/2019/05/IT-Shrinath-Devidas.png" alt="John" width="160px">
+                <h3>Shri. Devidas Supdaji Shrinath</h3>
+                <p class="title">Lecturer - IT</p>
+                <p>Govt Polytechnic Daman</p>
+                <p><button class="faculty-contact" >Contact</button></p>
+            </div>
+            
+        </div>
+        <h1>Computer Science</h1>
+        <div class="dept" id="ee">
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
